@@ -9,11 +9,6 @@ def robot_spare_bin_python():
     github_login()
 
 
-def open_the_github_website():
-    """Navigates to the given URL"""
-    browser.goto("https://github.com/your_username")
-
-
 def github_login():
     browser.goto("https://github.com/login")
     login()
